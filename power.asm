@@ -42,3 +42,6 @@ end_loop:
     mov esp, ebp
     pop ebp
     ret
+shl ax, 2
+mov cl, 3
+shr ax, cl
